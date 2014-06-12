@@ -2,9 +2,9 @@ liblmdb
 =======
 
 
-Lightning Memory-Mapped Database (LMDB): an embeddable, open-source, high-performance database library. http://symas.com/mdb
+Lightning Memory-Mapped Database (LMDB): an embeddable, open-source, high-performance database library. http://symas.com/mdb. This is a B-tree based key-value store, using a memory mapped file for performance.
 
-This repo created for convenience of project management. Source for (possibly) more up-to-date versions:
+This github repo was created for convenience of project management. Source for (possibly) more up-to-date versions:
 
 git clone -b mdb.master git://git.openldap.org/openldap.git  # on June 11, 2014 / 17c09fa476a7dbd49aca5e4caf0384cb1c3d244a
 
