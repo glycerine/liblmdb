@@ -57,7 +57,9 @@ Atomic hot backup             x
 
 LMDB out performs LevelDB unless you are doing almost-all small writes.[2][3] And even then LMDB may be preferrable due to predictable latency, low CPU usage, and the features in the first column above. It is probably not a good choice when data size is over 10x memory size. That's why it is referred to as an embedded database library.
 
-Supports Linux, Windows, OSX, and probably others.
+Supports Linux, Windows, OSX, and BSD variants, probably others.
+LMDB authored by: Howard Chu, Symas Corporation.
+
 
 [1]http://symas.com/mdb
 [2]http://symas.com/mdb/hyperdex/
